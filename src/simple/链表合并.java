@@ -6,6 +6,15 @@ package simple;
  * @author dailinfu
  */
 public class 链表合并 {
+        public static void main(String[] args){
+            double f = 1.0;
+            Object o=new Object(){
+                public boolean equals(Object obj){
+                    return true;
+                }
+            };
+            System.out.println(o.equals("Fred"));
+        }
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         //创建一个节点
         ListNode head = new ListNode(0);
